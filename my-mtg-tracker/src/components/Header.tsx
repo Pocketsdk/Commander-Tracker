@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <h1>My MTG Tracker Test</h1>
+      <h1>My MTG Tracker</h1>
     </header>
   );
 }
