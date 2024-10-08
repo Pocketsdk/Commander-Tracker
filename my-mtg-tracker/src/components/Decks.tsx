@@ -5,7 +5,7 @@ export interface DecksProps {
     deck: typeof Deck[];
 }
 
-export const Decks = () => {
+const Decks = () => {
 
     const recentDecks = testData.slice(0, 3)
 
@@ -32,3 +32,5 @@ export const Decks = () => {
         </section>
     );
 };
+
+export default Decks;
