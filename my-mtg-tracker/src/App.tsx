@@ -1,13 +1,12 @@
-import Header from './components/Header'
-import './scss/main.scss'
-import './App.css'
+
 import { Decks } from './components/Decks'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
     <>
-      <Header />
+      <Hero />
       <Decks />
     </>
   )

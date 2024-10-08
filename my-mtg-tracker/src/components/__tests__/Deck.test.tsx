@@ -20,7 +20,7 @@ describe('Deck', () => {
         expect(deckColors).toBeDefined();  
     });
     test('renders deck version', () => {
-        const deckVersion = screen.getByText(/Version 1/i);
+        const deckVersion = screen.getByText(/v1/i);
         expect(deckVersion).toBeDefined();  
     });
     test('renders deck win rate', () => {

@@ -1,44 +1,41 @@
-{
-    "data": 
-    [
-        {
-            "deckID": 1,
-            "deckName": "Aminatou, Miracle Worker",
-            "deckType": "Enchantments",
-            "deckColors": ["White", "Blue"],
-            "deckVersion": 1.0,
-            "winRate": 0.6,
-            "gamesPlayed": 10
-        },
+[
+    {
+        "deckID": 1,
+        "deckName": "Aminatou, Miracle Worker",
+        "deckType": "Enchantments",
+        "deckColors": ["White", "Blue"],
+        "deckVersion": 1.0,
+        "winRate": 0.6,
+        "gamesPlayed": 10
+    },
 
-        {
-            "deckID": 2,
-            "deckName": "Myrel, Soldiers",
-            "deckType": "Go Wide",
-            "deckColors": ["White"],
-            "deckVersion": 1.0,
-            "winRate": 0.4,
-            "gamesPlayed": 10
-        },
+    {
+        "deckID": 2,
+        "deckName": "Myrel, Soldiers",
+        "deckType": "Go Wide",
+        "deckColors": ["White"],
+        "deckVersion": 1.0,
+        "winRate": 0.4,
+        "gamesPlayed": 10
+    },
 
-        {
-            "deckID": 3,
-            "deckName": "Stella, Quick Draw",
-            "deckType": "Combo",
-            "deckColors": ["Red", "Blue"],
-            "deckVersion": 1.0,
-            "winRate": 0.5,
-            "gamesPlayed": 10
-        },
+    {
+        "deckID": 3,
+        "deckName": "Stella, Quick Draw",
+        "deckType": "Combo",
+        "deckColors": ["Red", "Blue"],
+        "deckVersion": 1.0,
+        "winRate": 0.5,
+        "gamesPlayed": 10
+    },
 
-        {
-            "deckID": 4,
-            "deckName": "Ygra, Protean Cat",
-            "deckType": "Combo, Battlecruiser",
-            "deckColors": ["Black", "Green"],
-            "deckVersion": 1.0,
-            "winRate": 0.7,
-            "gamesPlayed": 10
-        }
-    ]
-}
+    {
+        "deckID": 4,
+        "deckName": "Ygra, Protean Cat",
+        "deckType": "Combo, Battlecruiser",
+        "deckColors": ["Black", "Green"],
+        "deckVersion": 1.0,
+        "winRate": 0.7,
+        "gamesPlayed": 10
+    }
+]
