@@ -24,6 +24,8 @@ const Decks = () => {
               deckVersion={deckData.deckVersion}
               winRate={deckData.winRate}
               gamesPlayed={deckData.gamesPlayed}
+              imgArtCrop={deckData.imgArtCrop}
+              imgCard={deckData.imgCard}
             />
           ))}
         </div>
