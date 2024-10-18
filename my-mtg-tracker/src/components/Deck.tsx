@@ -15,8 +15,6 @@ export const Deck = (deck: DeckProps) => {
     backgroundImage: `url(${deck.imgArtCrop})`,
   };
 
-  console.log(deckStyle);
-
   return (
     <div
       className="
