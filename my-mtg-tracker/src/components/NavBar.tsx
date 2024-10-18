@@ -2,13 +2,13 @@ const NavBar = () => {
   return (
     <nav className="bg-gray-700 p-4">
       <ul className="text-orange-500 flex space-x-4">
-        <li>
+        <li className="hover:text-black">
           <a href="#home">Home</a>
         </li>
-        <li>
+        <li className="hover:text-black">
           <a href="#decks">Decks</a>
         </li>
-        <li>
+        <li className="hover:text-black">
           <a href="#about">About</a>
         </li>
       </ul>

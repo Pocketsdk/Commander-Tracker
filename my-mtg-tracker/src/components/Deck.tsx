@@ -21,10 +21,7 @@ export const Deck = (deck: DeckProps) => {
     <div
       className="
             relative 
-            bg-white    
-            hover:bg-gradient-to-l
-                from-indigo-400
-                to-yellow-500
+            bg-white
             h-56
             rounded-xl
             shadow-md
@@ -32,19 +29,27 @@ export const Deck = (deck: DeckProps) => {
             "
     >
       <div
-        className="absolute inset-0 bg-cover bg-top bg-no-repeat opacity-100 rounded-xl"
         style={deckStyle}
+        className="
+          absolute 
+          inset-0 
+          bg-cover 
+          bg-top 
+          bg-no-repeat 
+          opacity-100 
+          rounded-xl
+          "
       />
-      <div className="absolute inset-0 p-4 rounded-xl opacity-100">
+      <div className="absolute inset-0 text-white p-4 rounded-xl opacity-100 hover:text-black hover:bg-gradient-to-l from-gray-600 to-yellow-400 hover:opacity-50">
         <div className="mb-6" key={deck.deckID}>
-          <h1 className="text-xl font-bold text-white">{deck.deckName}</h1>
-          <span className="absolute top-0 right-0 mt-3 mr-3 text-sm text-white">
+          <h1 className="text-xl font-bold">{deck.deckName}</h1>
+          <span className="absolute top-0 right-0 mt-3 mr-3 text-sm">
             v{deck.deckVersion}
           </span>
-          <h2 className="text-sm text-white font-bold">{deck.deckType}</h2>
-          <h3 className="text-sm text-white">{deck.deckColors.join(", ")}</h3>
+          <h2 className="text-sm font-bold">{deck.deckType}</h2>
+          <h3 className="text-sm">{deck.deckColors.join(", ")}</h3>
           <div className="absolute bottom-0 right-0 mr-3">
-            <p className="text-sm text-white">
+            <p className="text-sm">
               Win Rate {deck.winRate * 100}% | Games Played {deck.gamesPlayed}
             </p>
           </div>
