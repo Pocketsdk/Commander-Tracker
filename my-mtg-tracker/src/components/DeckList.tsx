@@ -1,5 +1,4 @@
 import testData from "./testData.json";
-import { Link } from "react-router-dom";
 
 const DeckList = () => {
   const deckList = testData;

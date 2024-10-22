@@ -1,13 +1,12 @@
-import React from "react";
 import Hero from "../components/Hero";
-import RecentDecks from "../components/RecentDecks";
+import DeckCards from "../components/DeckCards";
 import DeckList from "../components/DeckList";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      <RecentDecks />
+      <DeckCards />
       <DeckList />
     </>
   );

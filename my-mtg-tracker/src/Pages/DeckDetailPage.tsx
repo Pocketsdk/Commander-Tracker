@@ -1,7 +1,7 @@
-import React from "react";
+import DeckCards from "../components/DeckCards";
 
 const DeckDetailPage = () => {
-  return <div>DeckDetailPage</div>;
+  return <h1>Comming Soon</h1>;
 };
 
 export default DeckDetailPage;
