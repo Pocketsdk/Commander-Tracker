@@ -23,7 +23,7 @@ const DeckList = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-b from-orange-500 to-gray-600">
+    <section className="bg-orange-500">
       <div className="container-xl lg:container m-auto">
         <h1 className="text-center font-bold text-2xl text-white">Deck List</h1>
         {loading ? (
