@@ -1,5 +1,6 @@
 import testData from "./testData.json";
 import { Deck } from "./Deck";
+import { Link } from "react-router-dom";
 
 export interface DecksProps {
   deck: (typeof Deck)[];
@@ -16,17 +17,19 @@ const RecentDecks = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {recentDecks.map((deckData) => (
-            <Deck
-              deckID={deckData.deckID}
-              deckName={deckData.deckName}
-              deckType={deckData.deckType}
-              deckColors={deckData.deckColors}
-              deckVersion={deckData.deckVersion}
-              winRate={deckData.winRate}
-              gamesPlayed={deckData.gamesPlayed}
-              imgArtCrop={deckData.imgArtCrop}
-              imgCard={deckData.imgCard}
-            />
+            <Link to={`/deckdetail/${deckData.deckID}`} key={deckData.deckID}>
+              <Deck
+                deckID={deckData.deckID}
+                deckName={deckData.deckName}
+                deckType={deckData.deckType}
+                deckColors={deckData.deckColors}
+                deckVersion={deckData.deckVersion}
+                winRate={deckData.winRate}
+                gamesPlayed={deckData.gamesPlayed}
+                imgArtCrop={deckData.imgArtCrop}
+                imgCard={deckData.imgCard}
+              />
+            </Link>
           ))}
         </div>
       </div>

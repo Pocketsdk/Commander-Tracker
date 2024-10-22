@@ -1,5 +1,5 @@
-import React from "react";
 import testData from "./testData.json";
+import { Link } from "react-router-dom";
 
 const DeckList = () => {
   const deckList = testData;
@@ -24,8 +24,11 @@ const DeckList = () => {
             <tbody className="text-sm text-white">
               {deckList.map((deckData) => (
                 <tr
-                  className="hover:bg-gray-600 hover:cursor-pointer"
+                  className="hover:bg-gradient-to-l from-yellow-500 to-cyan-600 hover:cursor-pointer"
                   key={deckData.deckID}
+                  onClick={() =>
+                    (window.location.href = `/deckdetail/${deckData.deckID}`)
+                  }
                 >
                   <td className="font-bold pr-3">{deckData.deckName}</td>
                   <td className="pr-3">{deckData.deckType}</td>
