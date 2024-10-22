@@ -1,4 +1,4 @@
-const NavBar = ({ title = "My MTG Tracker" }) => {
+const NavBar = () => {
   return (
     <nav className="bg-gray-700 p-4">
       <ul className="text-white flex items-center space-x-4">
