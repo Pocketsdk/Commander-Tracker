@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "server": "json-server --watch src/components/testData.json --port 8000"
   },
   "dependencies": {
     "react": "^18.3.1",

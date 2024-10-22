@@ -1,4 +1,4 @@
-interface DeckProps {
+export interface DeckProps {
   deckID: number;
   deckName: string;
   deckType: string;
