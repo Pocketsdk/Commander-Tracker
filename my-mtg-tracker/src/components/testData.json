@@ -1,57 +1,59 @@
-[
-  {
-    "deckID": 5,
-    "deckName": "Atla Palani, Nest Tender",
-    "deckType": "Slivers",
-    "deckColors": ["White", "Red", "Green"],
-    "deckVersion": 1.0,
-    "winRate": 0.8,
-    "gamesPlayed": 10,
-    "imgArtCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450",
-    "imgCard": "https://cards.scryfall.io/normal/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450"
-  },
-  {
-    "deckID": 1,
-    "deckName": "Aminatou, Miracle Worker",
-    "deckType": "Enchantments",
-    "deckColors": ["White", "Blue"],
-    "deckVersion": 1.0,
-    "winRate": 0.6,
-    "gamesPlayed": 10,
-    "imgArtCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
-    "imgCard": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831"
-  },
-  {
-    "deckID": 4,
-    "deckName": "Ygra, Protean Cat",
-    "deckType": "Combo, Battlecruiser",
-    "deckColors": ["Black", "Green"],
-    "deckVersion": 1.0,
-    "winRate": 0.7,
-    "gamesPlayed": 10,
-    "imgArtCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242",
-    "imgCard": "https://cards.scryfall.io/large/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242"
-  },
-  {
-    "deckID": 2,
-    "deckName": "Myrel, Soldiers",
-    "deckType": "Go Wide",
-    "deckColors": ["White"],
-    "deckVersion": 1.0,
-    "winRate": 0.4,
-    "gamesPlayed": 10,
-    "imgArtCrop": "https://cards.scryfall.io/art_crop/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256",
-    "imgCard": "https://cards.scryfall.io/large/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256"
-  },
-  {
-    "deckID": 3,
-    "deckName": "Stella, Quick Draw",
-    "deckType": "Combo",
-    "deckColors": ["Red", "Blue"],
-    "deckVersion": 1.0,
-    "winRate": 0.5,
-    "gamesPlayed": 10,
-    "imgArtCrop": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
-    "imgCard": "https://cards.scryfall.io/large/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409"
-  }
-]
+{
+  "decks": [
+    {
+      "deckID": 5,
+      "deckName": "Atla Palani, Nest Tender",
+      "deckType": "Slivers",
+      "deckColors": ["White", "Red", "Green"],
+      "deckVersion": 1.0,
+      "winRate": 0.8,
+      "gamesPlayed": 10,
+      "imgArtCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450",
+      "imgCard": "https://cards.scryfall.io/normal/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450"
+    },
+    {
+      "deckID": 1,
+      "deckName": "Aminatou, Miracle Worker",
+      "deckType": "Enchantments",
+      "deckColors": ["White", "Blue"],
+      "deckVersion": 1.0,
+      "winRate": 0.6,
+      "gamesPlayed": 10,
+      "imgArtCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
+      "imgCard": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831"
+    },
+    {
+      "deckID": 4,
+      "deckName": "Ygra, Protean Cat",
+      "deckType": "Combo, Battlecruiser",
+      "deckColors": ["Black", "Green"],
+      "deckVersion": 1.0,
+      "winRate": 0.7,
+      "gamesPlayed": 10,
+      "imgArtCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242",
+      "imgCard": "https://cards.scryfall.io/large/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242"
+    },
+    {
+      "deckID": 2,
+      "deckName": "Myrel, Soldiers",
+      "deckType": "Go Wide",
+      "deckColors": ["White"],
+      "deckVersion": 1.0,
+      "winRate": 0.4,
+      "gamesPlayed": 10,
+      "imgArtCrop": "https://cards.scryfall.io/art_crop/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256",
+      "imgCard": "https://cards.scryfall.io/large/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256"
+    },
+    {
+      "deckID": 3,
+      "deckName": "Stella, Quick Draw",
+      "deckType": "Combo",
+      "deckColors": ["Red", "Blue"],
+      "deckVersion": 1.0,
+      "winRate": 0.5,
+      "gamesPlayed": 10,
+      "imgArtCrop": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
+      "imgCard": "https://cards.scryfall.io/large/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409"
+    }
+  ]
+}
