@@ -1,4 +1,4 @@
-import DeckCards from "../Components/DeckCards";
+import DeckCards from "../components/DeckCards";
 
 const DecksPage = () => {
   return (
