@@ -9,7 +9,73 @@
       "winRate": 0.8,
       "gamesPlayed": 10,
       "imgArtCrop": "https://cards.scryfall.io/art_crop/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450",
-      "imgCard": "https://cards.scryfall.io/normal/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450"
+      "imgCard": "https://cards.scryfall.io/normal/front/2/b/2b8414f7-22c3-4e1c-934b-4a0e7acf951d.jpg?1673305450",
+      "games": [
+        {
+          "gameID": 1,
+          "date": "2022-01-01",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Atla Palani, Nest Tender",
+            "startPosition": 1,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 2,
+            "finishPosition": 2,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 3,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 4,
+            "finishPosition": 4,
+            "fastManaStart": false
+          }
+        },
+        {
+          "gameID": 2,
+          "date": "2022-01-02",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Atla Palani, Nest Tender",
+            "startPosition": 1,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 2,
+            "finishPosition": 2,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 3,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 4,
+            "finishPosition": 4,
+            "fastManaStart": false
+          }
+        }
+      ]
     },
     {
       "deckID": 1,
@@ -20,7 +86,73 @@
       "winRate": 0.6,
       "gamesPlayed": 10,
       "imgArtCrop": "https://cards.scryfall.io/art_crop/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
-      "imgCard": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831"
+      "imgCard": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1726596831",
+      "games": [
+        {
+          "gameID": 1,
+          "date": "2022-01-01",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Aminatou, Miracle Worker",
+            "startPosition": 1,
+            "finishPosition": 2,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 2,
+            "finishPosition": 4,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 4,
+            "finishPosition": 3,
+            "fastManaStart": false
+          }
+        },
+        {
+          "gameID": 2,
+          "date": "2022-01-02",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Aminatou, Miracle Worker",
+            "startPosition": 1,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 2,
+            "finishPosition": 2,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 3,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 4,
+            "finishPosition": 4,
+            "fastManaStart": false
+          }
+        }
+      ]
     },
     {
       "deckID": 4,
@@ -31,7 +163,41 @@
       "winRate": 0.7,
       "gamesPlayed": 10,
       "imgArtCrop": "https://cards.scryfall.io/art_crop/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242",
-      "imgCard": "https://cards.scryfall.io/large/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242"
+      "imgCard": "https://cards.scryfall.io/large/front/b/9/b9ac7673-eae8-4c4b-889e-5025213a6151.jpg?1721427242",
+      "games": [
+        {
+          "gameID": 1,
+          "date": "2022-01-01",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 3,
+            "finishPosition": 3,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 1,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 4,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 2,
+            "finishPosition": 2,
+            "fastManaStart": false
+          }
+        }
+      ]
     },
     {
       "deckID": 2,
@@ -42,7 +208,41 @@
       "winRate": 0.4,
       "gamesPlayed": 10,
       "imgArtCrop": "https://cards.scryfall.io/art_crop/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256",
-      "imgCard": "https://cards.scryfall.io/large/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256"
+      "imgCard": "https://cards.scryfall.io/large/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1674420256",
+      "games": [
+        {
+          "gameID": 1,
+          "date": "2022-01-01",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 1,
+            "finishPosition": 4,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 2,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 2,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 4,
+            "finishPosition": 3,
+            "fastManaStart": false
+          }
+        }
+      ]
     },
     {
       "deckID": 3,
@@ -53,7 +253,41 @@
       "winRate": 0.5,
       "gamesPlayed": 10,
       "imgArtCrop": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
-      "imgCard": "https://cards.scryfall.io/large/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409"
+      "imgCard": "https://cards.scryfall.io/large/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1714110409",
+      "games": [
+        {
+          "gameID": 1,
+          "date": "2022-01-01",
+          "MyInfo": {
+            "playerName": "me",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 1,
+            "finishPosition": 1,
+            "fastManaStart": false
+          },
+          "opponent1": {
+            "playerName": "John",
+            "deckName": "Ygra, Protean Cat",
+            "startPosition": 2,
+            "finishPosition": 2,
+            "fastManaStart": false
+          },
+          "opponent2": {
+            "playerName": "Jane",
+            "deckName": "Myrel, Soldiers",
+            "startPosition": 3,
+            "finishPosition": 3,
+            "fastManaStart": false
+          },
+          "oppenent3": {
+            "playerName": "Joe",
+            "deckName": "Stella, Quick Draw",
+            "startPosition": 4,
+            "finishPosition": 4,
+            "fastManaStart": false
+          }
+        }
+      ]
     }
   ]
 }
