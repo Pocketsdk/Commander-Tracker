@@ -36,6 +36,7 @@ export const Deck = (deck: DeckProps) => {
           bg-no-repeat 
           opacity-100 
           rounded-xl
+          shadow-xl
           "
       />
       <div className="absolute inset-0 text-white p-4 rounded-xl opacity-100 hover:text-black hover:bg-gradient-to-l from-gray-600 to-yellow-400 hover:opacity-50">

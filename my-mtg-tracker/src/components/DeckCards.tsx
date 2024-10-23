@@ -33,7 +33,7 @@ const deckCards = ({ isHome = false }) => {
         </h2>
         <button
           onClick={() => setListStyle((prevState) => !prevState)}
-          className="bg-orange-400 hover:bg-orange-700 text-white text-xs font-bold py-0 px-2"
+          className="bg-orange-400 hover:bg-orange-700 text-white text-xs font-bold px-1"
         >
           {listStyle ? "View as list" : "View as cards"}
         </button>
