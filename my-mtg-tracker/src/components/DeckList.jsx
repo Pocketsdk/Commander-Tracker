@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { DeckProps } from "./Deck";
 import Spinner from "./Spinner";
 
 const DeckList = () => {
-  const [decks, setDecks] = useState<DeckProps[]>([]);
+  const [decks, setDecks] = [];
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

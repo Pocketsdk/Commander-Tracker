@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { Deck, DeckProps } from "./Deck";
+import { Deck } from "./Deck.jsx";
 import { Link } from "react-router-dom";
 import Spinner from "./Spinner";
 
 const deckCards = ({ isHome = false }) => {
-  const [decks, setDecks] = useState<DeckProps[]>([]);
+  const [decks, setDecks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [listStyle, setListStyle] = useState(true);
 

@@ -1,16 +1,4 @@
-export interface DeckProps {
-  deckID: number;
-  deckName: string;
-  deckType: string;
-  deckColors: string[];
-  deckVersion: number;
-  winRate: number;
-  gamesPlayed: number;
-  imgArtCrop: string;
-  imgCard: string;
-}
-
-export const Deck = (deck: DeckProps) => {
+export const Deck = (deck) => {
   const deckStyle = {
     backgroundImage: `url(${deck.imgArtCrop})`,
   };

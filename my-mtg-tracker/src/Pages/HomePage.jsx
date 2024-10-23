@@ -1,5 +1,5 @@
-import Hero from "../components/Hero";
-import DeckCards from "../components/DeckCards";
+import Hero from "../components/Hero.jsx";
+import DeckCards from "../components/DeckCards.jsx";
 
 const HomePage = () => {
   return (
