@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { Deck } from "./Deck.jsx";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Spinner from "./Spinner";
 
 const deckCards = ({ isHome = false }) => {
   const [decks, setDecks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [listStyle, setListStyle] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const apiUrl = isHome ? "/api/decks?_limit=3" : "/api/decks";
@@ -50,6 +51,7 @@ const deckCards = ({ isHome = false }) => {
                   <Link
                     to={`/deckdetail/${thisDeck.deckID}`}
                     key={thisDeck.deckID}
+                    className="hover:cursor-pointer"
                   >
                     <Deck
                       deckID={thisDeck.deckID}
@@ -90,27 +92,27 @@ const deckCards = ({ isHome = false }) => {
                     </tr>
                   </thead>
                   <tbody className="text-sm text-white">
-                    {decks.map((deckData) => (
+                    {decks.map((thisDeck) => (
                       <tr
-                        className="hover:bg-gradient-to-l from-yellow-500 to-cyan-600 hover:cursor-pointer"
-                        key={deckData.deckID}
+                        className="hover:bg-gradient-to-b from-yellow-500 to-cyan-500 hover:cursor-pointer"
+                        key={thisDeck.deckID}
                         onClick={() =>
-                          (window.location.href = `/deckdetail/${deckData.deckID}`)
+                          navigate(`/deckdetail/${thisDeck.deckID}`)
                         }
                       >
-                        <td className="font-bold pr-3">{deckData.deckName}</td>
-                        <td className="pr-3">{deckData.deckType}</td>
+                        <td className="font-bold pr-3">{thisDeck.deckName}</td>
+                        <td className="pr-3">{thisDeck.deckType}</td>
                         <td className="pr-3">
-                          {deckData.deckColors.join(", ")}
+                          {thisDeck.deckColors.join(", ")}
                         </td>
                         <td className="pr-3 text-center">
-                          {deckData.deckVersion}
+                          {thisDeck.deckVersion}
                         </td>
                         <td className="pr-3 text-center">
-                          {deckData.winRate * 100}%
+                          {thisDeck.winRate * 100}%
                         </td>
                         <td className="pr-3 text-center">
-                          {deckData.gamesPlayed}
+                          {thisDeck.gamesPlayed}
                         </td>
                       </tr>
                     ))}
